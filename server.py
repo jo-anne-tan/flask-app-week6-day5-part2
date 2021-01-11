@@ -1,4 +1,4 @@
-from peeweedbevolve # new; must be imported before models
+import peeweedbevolve # new, must be imported before models
 
 from flask import Flask, render_template, request
 from models import db
